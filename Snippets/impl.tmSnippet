@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fn ${1:function_name}(${2:${3:parameter}${4/.+/: /}${4:type}})${5/.+/ -&gt; /}${5:type} {
+	<string>impl ${1:TraitName}${1/.+/ for /}${2:Type} {
 	${0:// body...}
 }</string>
 	<key>name</key>
-	<string>fn</string>
+	<string>impl</string>
 	<key>scope</key>
 	<string>source.rust</string>
 	<key>tabTrigger</key>
-	<string>fn</string>
+	<string>impl</string>
 	<key>uuid</key>
-	<string>5D83E339-418A-42FB-A6A4-37B8FAA3690E</string>
+	<string>6E8408C6-5D7C-4188-98FB-1E960DB91924</string>
 </dict>
 </plist>

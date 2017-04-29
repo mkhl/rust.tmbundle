@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fn ${1:function_name}(${2:${3:parameter}${4/.+/: /}${4:type}})${5/.+/ -&gt; /}${5:type} {
-	${0:// body...}
-}</string>
+	<string>vec![$1]</string>
 	<key>name</key>
-	<string>fn</string>
+	<string>vec!</string>
 	<key>scope</key>
 	<string>source.rust</string>
 	<key>tabTrigger</key>
-	<string>fn</string>
+	<string>vec</string>
 	<key>uuid</key>
-	<string>5D83E339-418A-42FB-A6A4-37B8FAA3690E</string>
+	<string>AB062E09-5FE5-4699-9FD5-A45085FEDB8F</string>
 </dict>
 </plist>

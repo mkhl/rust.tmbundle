@@ -3,16 +3,16 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>fn ${1:function_name}(${2:argument}: ${3:type}) -&gt; ${4:type} {
-	${0:// body...}
+	<string>if let ${1:name} = ${2:value} {
+	${0:$TM_SELECTED_TEXT}
 }</string>
 	<key>name</key>
-	<string>fnr</string>
+	<string>if let</string>
 	<key>scope</key>
 	<string>source.rust</string>
 	<key>tabTrigger</key>
-	<string>fnr</string>
+	<string>ifl</string>
 	<key>uuid</key>
-	<string>23E9CFF0-E905-48A1-AF7F-4DC5497E0352</string>
+	<string>11B1FE7E-DE48-420F-84A1-29C48D44B559</string>
 </dict>
 </plist>
